@@ -1,3 +1,7 @@
 def my_select(collection)
- # your code here!
+
+collection.find_all do | num | 
+num % 2 == 0 
+end
+
 end
